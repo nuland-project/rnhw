@@ -65,3 +65,41 @@ this instruction allows me to start default react-native project
 
 ### Run instructions for macOS:
 • See https://aka.ms/ReactNativeGuideMacOS for the latest up-to-date instructions.
+
+
+# how make project launchable on Android
+
+## compile -> implementation
+
+`
+/Users/mikhailsergiychuk/IdeaProjects/tmp2/rnhw6/node_modules/react-native-os/android/build.gradle
+/Users/mikhailsergiychuk/IdeaProjects/tmp2/rnhw6/node_modules/react-native-tcp/android/build.gradle
+`
+
+## firebaseMessagingVersion = "21.1.0" to android/build.gradle
+
+## Edit file node_modules/react-native-voip-call/android/build.gradle
+
+`
+EDIT:    minSdkVersion 16 -> minSdkVersion 21                         
+EDIT:    compileSdkVersion 28 -> compileSdkVersion 33
+`
+
+## npx jetify 
+in order to fix error
+
+`
+package android.support.annotation does not exist
+`
+
+# how make project launchable on iOS
+
+## An attribute list cannot appear here
+FIRFirestoreSettings file in xCode
+https://github.com/firebase/firebase-ios-sdk/issues/11840#issuecomment-1739197452
+
+## 182 duplicate symbols
+ todo
+
+## Linker command failed with exit code 1 (use -v to see invocation)
+ todo
