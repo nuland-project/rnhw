@@ -48,3 +48,20 @@ cd into project dir and
 `npm run start`
 
 this instruction allows me to start default react-native project
+
+## generated run instructions:
+
+### Run instructions for Android:
+    • Have an Android emulator running (quickest way to get started), or a device connected.
+    • cd "/Users/mikhailsergiychuk/IdeaProjects/tmp2/rnhw6" && npx react-native run-android
+
+### Run instructions for iOS:
+• cd "/Users/mikhailsergiychuk/IdeaProjects/tmp2/rnhw6"
+
+    • npx react-native run-ios
+    - or -
+    • Open rnhw6/ios/rnhw6.xcworkspace in Xcode or run "xed -b ios"
+    • Hit the Run button
+
+### Run instructions for macOS:
+• See https://aka.ms/ReactNativeGuideMacOS for the latest up-to-date instructions.
